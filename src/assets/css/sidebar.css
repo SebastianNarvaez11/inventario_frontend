@@ -1,0 +1,141 @@
+.sidebar {
+    width: 8%;
+    background-color: white;
+    /* margin-left: 20px; */
+}
+
+#sidebar-wrapper {
+    background-color: #ffffff;
+    max-width: 240px;
+    min-height: 100vh;
+    margin-left: -15rem;
+    /* box-shadow: 10px 0px 19px -7px rgba(0, 0, 0, 0.932); */
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#button-sidebar {
+    /* color: rgba(0, 0, 0, .5); */
+    padding: .25rem .75rem;
+    border: 0;
+    font-size: 1.25rem;
+    background-color: transparent;
+}
+
+#sidebar-wrapper {
+    margin-left: 0;
+}
+
+#page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+}
+
+.navActive {
+    color: #ffffff;
+}
+
+.navActiveHover:hover {
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #928f8f;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.img_cover {
+    object-fit: cover;
+}
+
+.pro-img {
+    width: 100%;
+    object-fit: cover;
+    filter: drop-shadow(0px 0px 10px white);
+}
+
+.pro-icon-active {
+    background-color: #5e64f9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    width: 100%;
+    border-radius: 15px;
+}
+
+.pro-icon-active-navbar {
+    background-color: #5e64f9;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pro-icon {
+    width: 25%;
+    color: #dadada;
+    object-fit: cover;
+}
+
+.icon-active {
+    color: white;
+}
+
+.icon-deactive {
+    color: #434af9
+}
+
+.pro-img2 {
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-pic2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.pro-imagen {
+    margin-top: -80px;
+    margin-bottom: 20px;
+}
+
+.pro-imagen img {
+    width: 128px;
+    height: 128px;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+}
+
+.bg-blue {
+    background-color: #5257f2;
+}
+
+.row-white {
+    width: 100%;
+}
